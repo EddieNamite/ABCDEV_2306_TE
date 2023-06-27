@@ -1,0 +1,13 @@
+VARIABLE
+    Rayon est un reel
+    Volume est un reel
+    Aire est un reel
+Constante
+    Pi est un reel
+Debut du programme
+    Ecrire "Saisir le rayon"
+    Lire <-- Rayon
+    Aire <-- 4*Pi*Rayon^2
+   Volume <-- 4/3 * Pi * Rayon^3
+    Ecrire"L'aire de la sphere est ",Aire, " Le volume de la sphere est ",Volume
+    Fin du programme

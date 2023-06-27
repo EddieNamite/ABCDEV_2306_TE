@@ -1,0 +1,12 @@
+VARIABLE
+    Nombre1 est un reel
+    Nombre2 est un reel
+    Resultat est un reel
+Debut du programme
+    Ecrire "Saisir le Nombre1"
+    Lire <-- Rayon
+    Ecrire "Saisir le Nombre2'"
+    Lire <-- Angle 
+    Resultat <-- (Nombre1 + Nombre2)/2
+    Ecrire "Le resultat est",Resultat
+Fin du programme
