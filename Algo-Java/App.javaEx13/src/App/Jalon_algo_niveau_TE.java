@@ -16,10 +16,10 @@ public class Jalon_algo_niveau_TE {
 		// Saisie des donées
 			
 			System.out.println("Saisir votre prenom");
-			prenom = sc.nextInt();
+			prenom = sc.next();
 			
 			System.out.println("Saisir votre nom");
-			nom = sc.nextInt();
+			nom = sc.next();
 
 			System.out.println("Saisir votre département");
 			departement = sc.nextInt();
@@ -38,4 +38,4 @@ public class Jalon_algo_niveau_TE {
 	
 	}
 
-}
+
