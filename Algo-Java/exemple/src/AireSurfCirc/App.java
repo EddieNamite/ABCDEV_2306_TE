@@ -1,4 +1,4 @@
-package AireVolume;
+package AireSurfCirc;
 
 import java.util.Scanner;
 
@@ -23,10 +23,10 @@ public class App {
 	
 		// Saisie de l'angle
 		
-				System.out.println("Saisir l'angle");
-				angle = sc.nextInt();
+		System.out.println("Saisir l'angle");
+		angle = sc.nextInt();
 		
-		// Calcul de l'aire et du volume
+		// Calcul de l'aire
 		
 		aire = Math.round(pi * angle * Math.pow(rayon,2) * 100.0) / 100.0;
 		
@@ -36,3 +36,4 @@ public class App {
 	}
 
 }
+
