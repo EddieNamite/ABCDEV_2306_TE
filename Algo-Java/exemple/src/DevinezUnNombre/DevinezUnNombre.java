@@ -8,13 +8,13 @@ public class DevinezUnNombre {
 
         int ans, guess, guessNum = 0;
         final int maxGuesses = 7;
-        String str, playAgain = "y";
+        String str, playAgain = "o";
 
         Scanner scan = new Scanner(System.in);
         Random generator = new Random();
         ans = generator.nextInt(101) + 1;
 
-        while (playAgain.equals("y") || playAgain.equals("Y")) {
+        while (playAgain.equals("o") || playAgain.equals("O")) {
             System.out.println("Hello !! Bienvenue dans mon Eddie Jeu devinez un nombre entre 1 et 100 ( 7 essais possible )");
             System.out.println("Entrez un nombre (0 pour quitter):");
 
@@ -26,7 +26,7 @@ public class DevinezUnNombre {
                 if (guess == ans) {
                     System.out.println("Bravo !!");
                     break;
-                } else if (guess < ans)
+                } else if	 (guess < ans)
                     System.out.println("Opss! Trop petit ! essayez un autre nombre");
                 else if (guess > ans)
                     System.out.println("Opss! Trop grand ! essayez un autre nombre");
@@ -37,7 +37,7 @@ public class DevinezUnNombre {
                 System.out.println("Entrez un nombre (0 pour quitter):");
                 guess = scan.nextInt();
             }
-            System.out.println("Une autre partie?(y/n)");
+            System.out.println("Une autre partie?(o/n)");
             playAgain = scan.next();
         }
         System.out.println("Merci d'avoir joué à mon jeu !");
