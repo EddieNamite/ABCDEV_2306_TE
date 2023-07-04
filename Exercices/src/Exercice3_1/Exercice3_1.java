@@ -1,10 +1,9 @@
-package app;
+package Exercice3_1;
 
 import java.util.Random;
 import java.util.Scanner ;
 
-
-public class App
+public class Exercice3_1
 {
 
 	public static void main(String[] args) {

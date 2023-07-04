@@ -1,4 +1,4 @@
-package Exercice1_5;
+package exercice1_1;
 
 public class App {
 
@@ -6,12 +6,5 @@ public class App {
 		// TODO Auto-generated method stub
 
 	}
-
-
-
-
-
-
-
 
 }
