@@ -8,15 +8,15 @@ public class ABC_DEV_Jalon2MaCorrection {
 
 		String etudiant;
 		boolean etude;
-		String jour;
-		boolean jourOuiNon;
-	
-
+		int jour;
 		
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.println("Etes vous etudiant ? \nOui= O ou o \tNon=N ou n ");
 		etudiant = sc.next();
+		
+		System.out.println("Quel jour de la semaine sommes nous (ex: 1 pour lundi, 2 pour mardi, etc...?");
+		jour = sc.nextInt();
 		
 		if(etudiant.equals("O") || etudiant.equals("o"))
 		{
@@ -24,25 +24,24 @@ public class ABC_DEV_Jalon2MaCorrection {
 		}
 		else
 		{
-			etude = false;
+			etude = false;		
 		}
-		
-		System.out.println("Quel jour de la semaine sommes nous ?");
-		jour = sc.next();
-		
-		if(jour.equals("O") || jour.equals("o"))
+				
+		if(jour == 3 && etude == true)
 		{
-			jourOuiNon = true;
+			System.out.println("Vous avez une reduction de 50%");
 		}
+		else if(jour == 4 && etude == true)
+		{
+			System.out.println("Vous avez une reduction de 20%");
+		}
+		
 		else
+		
 		{
-			jourOuiNon = false;
+			System.out.println("Vous n'avez aucune reduction");
 		}
-		
-		
-		
+			
+		sc.close();
 		}
-
 	}
-
-	// Vendredi 11h47, j'ai essayé de ma corriger en reprenant votre exemple (il fait plus de 25° et si il pleut et si ma copine veut sortir) : je pense être sur la bonne voie mais pas fini...

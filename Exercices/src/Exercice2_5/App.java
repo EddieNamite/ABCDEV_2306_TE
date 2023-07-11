@@ -20,7 +20,7 @@ Scanner sc = new Scanner(System.in);
 			if(Nb % boucl == 0){
 			
 				System.out.println(" "+boucl);
-			
+
 			}
 			
 		}
