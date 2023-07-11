@@ -3,28 +3,30 @@ package Exercice2_5;
 import java.util.Scanner;
 
 
-public class App {
+public class App 
+{
 
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+	{
 
 Scanner sc = new Scanner(System.in);
 		
 		int Nb;
-		int boucl;
+		int boucle;
 		System.out.println("Saisir un nombre :");
 		Nb = sc.nextInt();
 		System.out.println("Liste des diviseurs de " + Nb);
 		
-		for(boucl=2; boucl<=Nb-1; boucl++) {
+		for(boucle=2; boucle<=Nb-1; boucle++) 
+		{
 		
-			if(Nb % boucl == 0){
+			if(Nb % boucle == 0)
+			{
 			
-				System.out.println(" "+boucl);
-
+				System.out.println(" "+boucle);
 			}
-			
 		}
-	
+		
 		sc.close();
 	}
 
