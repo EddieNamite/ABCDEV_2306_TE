@@ -12,7 +12,7 @@ public class Exercice3_1
 		
 		int nombre;
 		int sup;
-		int i;
+		int essai;
 		int min;
 		int max;
 		boolean win;
@@ -22,7 +22,7 @@ public class Exercice3_1
 		
 		nombre = random.nextInt(100)+1;
 		
-		i = 0 ;
+		essai = 0 ;
 		win = false;
 		min = 0;
 		max = 100;
@@ -49,11 +49,11 @@ public class Exercice3_1
 				if (nombre == sup) {
 					win = true;}			
 				
-				i = i+1; 
+				essai = essai+1; 
 						
 			}while (win != true);
 				
-			System.out.println(" Bravo ! reussi en "+i+" essais");
+			System.out.println(" Bravo ! reussi en "+essai+" essais");
 
 		scanner.close();
 		
