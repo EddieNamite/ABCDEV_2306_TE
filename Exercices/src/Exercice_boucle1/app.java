@@ -1,5 +1,19 @@
 package Exercice_boucle1;
 
+/*
+ * Variables
+ * 		nombre est un entier
+ * Debut du programme
+ * nombre <-- 0
+ * Debut tant que
+ * 		tant que nombre < 1 OU nombre > 3
+ * 		faire
+ * 			Ecrire "Ecrire un nombre entre 1 et 3 :"
+ * 			Lire nombre
+ * Fin tant que
+ * Fin du programme
+ */
+
 import java.util.Scanner;
 
 public class app 
