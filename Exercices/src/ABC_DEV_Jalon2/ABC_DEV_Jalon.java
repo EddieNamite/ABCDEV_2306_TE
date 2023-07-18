@@ -7,6 +7,7 @@ public class ABC_DEV_Jalon {
 	public static void main(String[] args) {
 
 	boolean etudiant;
+	String estEtudiant;
 	String jour;
 	boolean mercredi;
 	boolean jeudi;
@@ -15,9 +16,9 @@ public class ABC_DEV_Jalon {
 	Scanner sc = new Scanner(System.in);
 	
 	System.out.println("Etes vous etudiant ?");
-	etudiant = sc.next();
+	estEtudiant = sc.next();
 	
-	if(etudiant.equals("O") || etudiant.equals("o"))
+	if(estEtudiant.equals("O") || estEtudiant.equals("o"))
 	{
 		etudiant = true;
 	}
@@ -29,10 +30,10 @@ public class ABC_DEV_Jalon {
 	System.out.println("Quel jour de la semaine sommes nous ?");
 	jour = sc.next();
 	
-	if(jour = "mardi")
+	/*if(jour = "mardi")
 	{
 		
-	}
+	}*/
 	
 	
 	

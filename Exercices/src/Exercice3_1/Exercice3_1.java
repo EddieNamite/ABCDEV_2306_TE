@@ -33,8 +33,7 @@ public class Exercice3_1
 					
 			sup = scanner.nextInt();
 
-			if (nombre != sup)  {
-				//System.out.println(+nb);			
+			if (nombre != sup)  {			
 				
 				if (sup > nombre) {
 					System.out.println("Entrer un nombre compris entre : "+sup+" et "+min);
