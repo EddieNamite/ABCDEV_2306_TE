@@ -1,0 +1,109 @@
+<mxfile host="Electron" modified="2023-07-19T07:42:26.967Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.1 Chrome/112.0.5615.204 Electron/24.6.1 Safari/537.36" etag="p_D1bV0vW7svjwZndVhd" version="21.6.1" type="device">
+  <diagram name="Page-1" id="I5io-tH2Yn791al98XE3">
+    <mxGraphModel dx="1098" dy="815" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="krnkImJpC_dt_fC0ihgB-2" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="399" y="30" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="krnkImJpC_dt_fC0ihgB-3" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="krnkImJpC_dt_fC0ihgB-2" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="krnkImJpC_dt_fC0ihgB-4" value="Ecrire &quot;Saisir un nombre" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="354" y="120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="krnkImJpC_dt_fC0ihgB-5" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="krnkImJpC_dt_fC0ihgB-4" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="414" y="190" />
+              <mxPoint x="415" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="krnkImJpC_dt_fC0ihgB-6" value="Lire nombre" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="354" y="220" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="krnkImJpC_dt_fC0ihgB-7" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="krnkImJpC_dt_fC0ihgB-6" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="krnkImJpC_dt_fC0ihgB-8" value="i &amp;lt;= 10" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="344" y="560" width="136" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="krnkImJpC_dt_fC0ihgB-9" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="krnkImJpC_dt_fC0ihgB-8" parent="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="540" y="420" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="krnkImJpC_dt_fC0ihgB-11" value="i = 1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="352" y="320" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="krnkImJpC_dt_fC0ihgB-14" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="krnkImJpC_dt_fC0ihgB-6">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="610" y="240" as="sourcePoint" />
+            <mxPoint x="710" y="170" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="krnkImJpC_dt_fC0ihgB-15" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="399" y="780" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="krnkImJpC_dt_fC0ihgB-16" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="krnkImJpC_dt_fC0ihgB-8">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="314" y="480" as="sourcePoint" />
+            <mxPoint x="414" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="krnkImJpC_dt_fC0ihgB-18" value="no" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="400" y="688" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="krnkImJpC_dt_fC0ihgB-19" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.45;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="krnkImJpC_dt_fC0ihgB-11" target="krnkImJpC_dt_fC0ihgB-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="400" as="targetPoint" />
+            <mxPoint x="410" y="380" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="410" y="360" />
+              <mxPoint x="410" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="krnkImJpC_dt_fC0ihgB-20" value="nombre + 1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="354" y="430" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="krnkImJpC_dt_fC0ihgB-21" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="krnkImJpC_dt_fC0ihgB-20" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="krnkImJpC_dt_fC0ihgB-22" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="540" y="420" as="sourcePoint" />
+            <mxPoint x="414" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="krnkImJpC_dt_fC0ihgB-23" value="Afficher nombre" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="354" y="500" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="krnkImJpC_dt_fC0ihgB-24" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.574;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="krnkImJpC_dt_fC0ihgB-23" parent="1" target="krnkImJpC_dt_fC0ihgB-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="560" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="414" y="550" />
+              <mxPoint x="411" y="550" />
+              <mxPoint x="411" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="krnkImJpC_dt_fC0ihgB-25" value="Exercice Algo boucle 3" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="100" y="20" width="110" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

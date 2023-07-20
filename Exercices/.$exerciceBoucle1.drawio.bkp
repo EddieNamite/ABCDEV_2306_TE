@@ -1,0 +1,56 @@
+<mxfile host="Electron" modified="2023-07-18T12:52:14.250Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.1 Chrome/112.0.5615.204 Electron/24.6.1 Safari/537.36" etag="OuOZWL7FZ5eb2k8mYpJ5" version="21.6.1" type="device">
+  <diagram name="Page-1" id="arvem9Y6mTJnU4u-0iat">
+    <mxGraphModel dx="1216" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QTviB8vljGVMgz35e3y6-1" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="320" y="60" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QTviB8vljGVMgz35e3y6-2" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="QTviB8vljGVMgz35e3y6-1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="335" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QTviB8vljGVMgz35e3y6-3" value="Ecrire &quot;Saisir un nombre entre 1 et 3" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="275" y="150" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QTviB8vljGVMgz35e3y6-4" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="QTviB8vljGVMgz35e3y6-3" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="335" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QTviB8vljGVMgz35e3y6-5" value="Lire nombre" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="275" y="250" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QTviB8vljGVMgz35e3y6-6" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="QTviB8vljGVMgz35e3y6-5" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="335" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QTviB8vljGVMgz35e3y6-7" value="nombre &amp;lt; 1&lt;br&gt;ou&lt;br&gt;nombre &amp;gt; 3" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="275" y="350" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="QTviB8vljGVMgz35e3y6-8" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="QTviB8vljGVMgz35e3y6-7" parent="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="470" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QTviB8vljGVMgz35e3y6-9" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="QTviB8vljGVMgz35e3y6-7" parent="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="330" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QTviB8vljGVMgz35e3y6-11" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="470" y="360" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QTviB8vljGVMgz35e3y6-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QTviB8vljGVMgz35e3y6-7" target="QTviB8vljGVMgz35e3y6-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="340" as="sourcePoint" />
+            <mxPoint x="260" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,5 +1,33 @@
 package Exercice2_2;
 
+
+/*
+ * PSEUDO CODE
+ * 	Variables
+ * 		a est un entier
+ * 		b est un entier
+ *
+ * 	Debut du programme
+ * 		ecire " Saisir le 1er nombre"
+ * 		lire <-- nombre a
+ * 		ecrire " Saisir le 2eme nombre"
+ * 		lire <-- nombre b
+ *  debut SI
+ *  	si a = b
+ *  	ecrire a = b
+ *  	si a < b
+ *  	ecrire a < b
+ *  	si a > b
+ *  	ecrire b < a
+ * 	Fin SI
+ *  Fin du programme
+ * 
+ */
+
+
+
+
+
 import java.util.Scanner;
 
 public class App {
@@ -28,14 +56,12 @@ public class App {
 			
 		else if(nombrea < nombreb)
 		{
-			System.out.println("Nombre " + nombrea);
-			System.out.println("Nombre " + nombreb);
+			System.out.println("Nombre " + nombrea +" < "+ nombreb);
 		}
 		
 		else
 		{
-			System.out.println("Nombre " + nombreb);
-			System.out.println("Nombre " + nombrea);
+			System.out.println("Nombre " + nombreb +" < "+ nombrea);
 		}
 		
 		sc.close();
