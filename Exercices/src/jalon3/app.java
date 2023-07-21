@@ -33,8 +33,6 @@ public class app {
 // Déclaration des variables
 		
 		int nombre;
-		String reponse;
-		
 		Scanner sc = new Scanner(System.in);
 		
 // Saisie de l'utilisateur
@@ -48,7 +46,7 @@ public class app {
 		}
 	
 		System.out.println("Souhaitez vous afficher une autre table ? Oui(O) ou Non(N)");
-		reponse = sc.next();
+		
 		
 		// j'aurai pu faire la suite Adeline, j'en suis capable !! mais bon, le principale ( boucles ) est compris...
 		
