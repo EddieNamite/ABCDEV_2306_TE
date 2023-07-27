@@ -42,6 +42,7 @@ public class App {
 	public static void main(String[] args) {
 		
 	// Declaration des variables
+		
 		int length; 
 		int counter = 1;
 		int posCount = 0;
@@ -49,14 +50,20 @@ public class App {
 		int zeroCount = 0;
 		
 	// Saisie taille du tableau			
-		Scanner scanner = new Scanner(System.in);
-			System.out.println("Saisissez la taille du tableau : ");
-			length = scanner.nextInt();
+		
+		Scanner sc = new Scanner(System.in);
+			
+		System.out.println("Saisissez la taille du tableau : ");
+			length = sc.nextInt();
+			
 			int[] numberArray = new int[length];
+			
+			
+	// Boucle for
 			
 			for(int i = 0 ; i < numberArray.length ; i++) {
 				System.out.println("Entrez la valeur numéro " + counter);
-				numberArray[i] = scanner.nextInt();
+				numberArray[i] = sc.nextInt();
 				if(numberArray[i] > 0) {
 					posCount++;
 				}else if(numberArray[i] < 0) {
@@ -70,7 +77,7 @@ public class App {
 			System.out.println("Il y a dans le tableau " + posCount + " valeur(s) positives, " 
 								+ negCount + " valeur(s) nagatives et " 
 								+zeroCount + " fois zero");
-		scanner.close();
+		sc.close();
 
 	}
 
