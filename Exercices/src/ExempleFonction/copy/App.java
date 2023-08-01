@@ -1,4 +1,4 @@
-package ExempleFonction;
+package ExempleFonction.copy;
 
 public class App {
 
@@ -9,21 +9,6 @@ public class App {
 		resultat = nombre1 + nombre2;
 
 		return resultat;
-	}
-	
-	public static boolean estPlusgrand(int resultat)
-	{
-		boolean plusGrand;
-		if(resultat > 10)
-		{
-			plusGrand = true;
-		}
-		else
-		{
-			plusGrand = false;
-		}
-		
-		return plusGrand;
 	}
 
 	public static void main(String[] args) {
@@ -41,10 +26,6 @@ public class App {
 		calcul = addition(c,d);
 
 		System.out.println(calcul);
-		
-		calcul = addition(a,d);
-		
-		System.out.println(calcul +" "+estPlusgrand(calcul));
 	}
 
 }
