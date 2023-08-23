@@ -20,11 +20,11 @@ public class App {
 
 	public static boolean anneebissextile(int an)
 	{
-		
-		
+			
 		boolean estbissextile;
 		
-		if(((an % 4 == 0) && (an % 100 != 0)) || (an % 400 == 0)) {
+		if(((an % 4 == 0) && (an % 100 != 0)) || (an % 400 == 0)) 
+		{
 			estbissextile = true;
 		}
 		else
@@ -35,8 +35,9 @@ public class App {
 		return estbissextile;
 	}
 	
-	public static void main(String[] args) {
-		
+	public static void main(String[] args)
+	{
+
 		int an;
 		
 		Scanner scan = new Scanner(System.in);
