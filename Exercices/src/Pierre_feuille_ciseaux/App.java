@@ -9,7 +9,7 @@ static int nombre;
 	
 public static void main(String[] args) {
 		
-pierre = 1;
+//pierre = 1;
 
 
 	
