@@ -1,90 +1,45 @@
 package porteDeGarage;
 
 public class MaPorteDeGarage {
-	boolean verrouillee;
-	boolean estFermee;
-	int niveauOuverture;
-	final int niveauMin = 0;
-	final int niveauMax = 100;
-	boolean verified;
-	
-	
-	// Constructeur par défaut
-	
-	public MaPorteDeGarage() {
-		verrouillee = true;
-		estFermee = true;
-		niveauOuverture = 0;
-		verified = true;
+	private final String marque;
+	private boolean estOuverte;
+	private boolean estVerouiller;
+	private int degresOuverture;
+	private final int degresMax;
+	private final int degresMin;
+
+	public MaPorteDeGarage(String _marque, boolean _estOuverte, boolean _estVerouiller, int _degresOuverture, int _degresMax,int _degresMin)
+	{
+		this.marque = _marque;
+		this.estOuverte = _estOuverte;
+		this.estVerouiller = _estVerouiller;
+		this.degresOuverture = _degresOuverture;
+		this.degresMax = _degresMax;
+		this.degresMin = _degresMin;
 	}
-	
-	// Constructeur avec parametres
-	
-	public MaPorteDeGarage(boolean _verrouillee, boolean _estFermee, int _niveauOuverture) {
-		this.verrouillee = _verrouillee;
-		this.estFermee = _estFermee;
-		this.niveauOuverture = _niveauOuverture;
-		
-		if((this.verrouillee && this.estFermee && this.niveauOuverture ==0) ^ this.niveauOuverture != 0) {
-			verified = true;
-		}else {
-			verified = false;
-		}
-	}
-	
-	public boolean verrouillerPorte() {
-		if(verified && this.estFermee && !this.verrouillee) {
-			this.verrouillee = true;
+
+	public boolean ouvrir()
+	{
+		if(!this.estOuverte && !this.estVerouiller)
+		{
+			this.estOuverte = true;
 			return true;
-		}else {
+		}
+		else
+		{
 			return false;
 		}
 	}
-	
-	public boolean deverrouillerPorte() {
-		if(verified && this.verrouillee) {
-			this.verrouillee = false;
+
+	public boolean fermer()
+	{
+		if(this.estOuverte && !this.estVerouiller)
+		{
+			this.estOuverte = false;
 			return true;
-		}else {
-			return false;
 		}
-	}
-	
-	public boolean fermer(int _angle) {
-		if(verified && !this.estFermee && this.niveauOuverture - _angle >= this.niveauMin) {
-			this.niveauOuverture -= _angle;
-			return true;
-		}else {
-			return false;
-		}
-	}
-	
-	public boolean ouvrir(int _angle) {
-		if(verified && !this.verrouillee && _angle <= (this.niveauMax - this.niveauOuverture)) {
-			this.estFermee = false;
-			this.niveauOuverture += _angle;
-			return true;
-		}else {
-			return false;
-		}
-	}
-	
-	public boolean ouvrirEntierement() {
-		if(verified && !this.verrouillee && this.niveauOuverture != this.niveauMax) {
-			this.estFermee = false;
-			this.niveauOuverture = 100;
-			return true;
-		}else {
-			return false;
-		}
-	}
-	
-	public boolean fermerEntierement() {
-		if(verified && !this.estFermee) {
-			this.estFermee = true;
-			this.niveauOuverture = 0;
-			return true;
-		}else {
+		else
+		{
 			return false;
 		}
 	}
