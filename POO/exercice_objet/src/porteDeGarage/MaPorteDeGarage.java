@@ -1,13 +1,14 @@
 package porteDeGarage;
 
 public class MaPorteDeGarage {
+	
 	private final String marque;
 	private boolean estOuverte;
 	private boolean estVerouiller;
 	private int degresOuverture;
 	private final int degresMax;
 	private final int degresMin;
-
+	
 	public MaPorteDeGarage(String _marque, boolean _estOuverte, boolean _estVerouiller, int _degresOuverture, int _degresMax,int _degresMin)
 	{
 		this.marque = _marque;
@@ -30,7 +31,7 @@ public class MaPorteDeGarage {
 			return false;
 		}
 	}
-
+	
 	public boolean fermer()
 	{
 		if(this.estOuverte && !this.estVerouiller)
