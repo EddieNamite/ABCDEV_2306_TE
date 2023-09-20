@@ -4,5 +4,5 @@
 /**
  * 
  */
-module exercice_objet {
+module POO {
 }
