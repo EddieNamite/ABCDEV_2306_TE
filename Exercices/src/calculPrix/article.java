@@ -1,5 +1,5 @@
 package calculPrix;
-
+/*
 public class Article 
 {
 
@@ -38,8 +38,7 @@ public class Article
 
 }
 
-
-
+*/
 
 
 
